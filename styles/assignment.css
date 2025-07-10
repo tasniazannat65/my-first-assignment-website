@@ -59,18 +59,13 @@ header{
     background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
-     min-height: 700px;
-   
-
-    
-      
-    
+     min-height: 700px;   
 }
 
 /* banner section style */
 .banner-section{
      text-align: center;
-     margin: 200px 260px 150px 260px;
+     margin: 200px 160px 150px 160px;
       
 }
 
@@ -86,18 +81,18 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
- section{
-    margin-top: 120px; 
-     margin-bottom: 120px; 
-    
+main section{
+    margin-top: 116px;
+    margin-bottom: 116px;
 }
-/* section styles */
+
+
+/* action section styles */
 .section-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
+       
 }
 .section-content{
     max-width: 500px;
@@ -114,6 +109,36 @@ main{
 .section-description{
     color: rgba(37, 36, 50, 0.5);
     font-size: 24px;
+}
+/* productive user styles */
+.productive-user{
+    border-radius: 24px;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 80px;
+    
+
+}
+.productive-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 158px;
+}
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 30px;
+}
+.productive-sub-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.productive-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    
 }
 
 
