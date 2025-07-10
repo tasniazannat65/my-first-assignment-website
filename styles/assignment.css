@@ -194,6 +194,28 @@ main section{
     display: inline-block;
     margin-left: 5px;
 }
+.focus-container{
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+    border-radius: 14px;
+    text-align: center;
+   
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+     margin-bottom: 20px;
+}
+.focus-description{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+     margin-bottom: 20px;
+}
+.focus-image{
+    border-radius: 48px;
+     margin-top: 20px;
+}
 
 
 
