@@ -121,7 +121,7 @@ main section{
 .productive-items{
     display: flex;
     justify-content: space-around;
-    gap: 158px;
+    gap: 150px;
 }
 .productive-title{
     font-size: 38px;
@@ -139,6 +139,60 @@ main section{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     
+}
+/* review section */
+.review-container{
+    display: flex;
+    gap: 20px;
+}
+.review-content{
+    border-radius: 14px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    
+    
+}
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+}
+.review-sub-title{
+    font-size: 24px;
+    color: #1E1E1E;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.review-description{
+    font-size: 16px;
+    color: #1E1E1E;
+    font-weight: 500;
+    
+}
+.reviewer{
+    
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 0;
+    
+}
+.reviewer-date{
+    font-size: 16px;
+    color: #B3B3B3;
+    margin-top: 0;
+    
+    
+    
+    
+}
+.review-pic{
+    border-radius: 50%;
+    
+}
+.reviewer-info{
+    display: inline-block;
+    margin-left: 5px;
 }
 
 
