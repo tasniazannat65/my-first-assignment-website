@@ -140,7 +140,7 @@ main section{
     color: rgba(0, 0, 0, 0.5);
     
 }
-/* review section */
+/* review section styles */
 .review-container{
     display: flex;
     gap: 20px;
@@ -194,6 +194,7 @@ main section{
     display: inline-block;
     margin-left: 5px;
 }
+/* focus section styles */
 .focus-container{
     background-color: #FFFFFF;
     padding: 71px 150px;
@@ -215,6 +216,70 @@ main section{
 .focus-image{
     border-radius: 48px;
      margin-top: 20px;
+}
+/* form section styles */
+.form-container{
+     display: flex; 
+     justify-content: space-between; 
+    
+    align-items: center;
+    padding: 71px 0;
+    
+    gap: 100px;
+    
+    
+
+    
+}
+ .form-heading{
+     width: 50%;
+}  
+
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+ label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    
+}
+  input[type="email"],   input[type="text"]{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 32px;
+     display: block; 
+     width: 450px;
+    height: 40px;
+    margin-bottom: 19px; 
+    border: none;
+}
+textarea{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 32px;
+     display: block; 
+     width: 450px;
+    height: 50px;
+    margin-bottom: 19px; 
+    border: none;
+
+}
+ input[type="submit"]{
+    border-radius: 10px;
+    padding: 19px 100px;
+    background-color: #4E47FF;
+    width: 100%;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+
 }
 
 
