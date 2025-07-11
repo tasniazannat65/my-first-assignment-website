@@ -44,7 +44,8 @@ body{
     cursor: pointer;
 }
 .btn:hover{
-    background-color: #2F4F4F;
+    background-color: #FF1493;
+    font-size: 20px;
 }
 nav{
     display: flex;
@@ -59,13 +60,13 @@ header{
     background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
-     min-height: 700px;   
+     min-height: 698px;   
 }
 
 /* banner section style */
 .banner-section{
      text-align: center;
-     margin: 200px 160px 150px 160px;
+     padding: 150px 160px 100px 160px;
       
 }
 
@@ -285,7 +286,7 @@ textarea{
 /* footer styles */
 footer{
     background-color: #FFFFFF;
-    padding: 104px 455px 103px 454px;
+    padding: 100px 450px;
     margin-top: 14px;
     
     
