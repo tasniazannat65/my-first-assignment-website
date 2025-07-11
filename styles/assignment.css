@@ -26,12 +26,13 @@ body{
 
 /* nav styles */
 .nav-title{
-    font-size: 34px;
+    font-size: 40px;
     font-weight: 900;
     color: #4E47FF;
 }
 .span-text{
-    color: #e6007a;
+    color: #FF1493;
+    font-size: 48px;
 }
 .btn{
     background-color: #4E47FF;
@@ -66,7 +67,7 @@ header{
 /* banner section style */
 .banner-section{
      text-align: center;
-     padding: 150px 160px 100px 160px;
+     padding: 150px 200px 100px 200px;
       
 }
 
@@ -291,15 +292,11 @@ footer{
     
     
 }
-.footer-title{
-    font-size: 100px;
-    font-weight: 900;
-    color: #4E47FF;
-    margin-bottom: 8px;
-}
+
 .footer-description{
     color: #8987A1;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 footer a{
